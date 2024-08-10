@@ -1,0 +1,23 @@
+{
+  "vinhthuy102@gmail.com": {
+    "password": "123456",
+    "phone": "0901628286",
+    "cccd": "025421435",
+    "gender": "Male",
+    "balance": 14190000
+  },
+  "dat.tq6141@gmail.com": {
+    "password": "431225",
+    "phone": "0907488890",
+    "cccd": "412344142",
+    "gender": "Male",
+    "balance": 5051000
+  },
+  "vinhthuy107": {
+    "password": "123456",
+    "phone": "0901666223",
+    "cccd": "231321321",
+    "gender": "Male",
+    "balance": 100212150
+  }
+}
