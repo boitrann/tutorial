@@ -1,0 +1,13 @@
+{
+  "vinhthuy": {
+    "stt": "01",
+    "gender": "Male",
+    "class": "9/10",
+    "marks": {
+      "math": 10,
+      "literature": 9,
+      "english": 8,
+      "physical": 7
+    }
+  }
+}
