@@ -1,0 +1,24 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "movieId": 1,
+            "cinemaId": 1,
+            "showtimeId": 1,
+            "seatId": 1,
+            "price": 75000,
+            "customerId": "KH001",
+            "employeeId": "NV001"
+        },
+        {
+            "id": 2,
+            "movieId": 2,
+            "cinemaId": 1,
+            "showtimeId": 2,
+            "seatId": 2,
+            "price": 75000,
+            "customerId": "KH001",
+            "employeeId": "NV001"
+        }
+    ]
+}

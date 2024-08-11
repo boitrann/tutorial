@@ -1,0 +1,19 @@
+{
+    "customer1@gmail.com": {
+        "id": "KH001",
+        "name": "Nguyễn Văn A",
+        "phone": "0123456789",
+        "cccd": "123456789",
+        "address": "123 Đường ABC, Quận XYZ, TP HCM",
+        "status": "active",
+        "password": "123456",
+        "created_at": "2021-01-01 00:00:00",
+        "updated_at": "2021-01-01 00:00:00",
+        "membership": {
+            "point": 0,
+            "type": "normal",
+            "start_date": "2021-01-01",
+            "end_date": "2022-01-01"
+        }
+    }
+}

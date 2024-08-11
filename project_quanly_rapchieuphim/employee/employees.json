@@ -1,0 +1,14 @@
+{
+    "employee1@gmail.com" : {
+        "id": "",
+        "name": "",
+        "phone": "",
+        "cccd": "",
+        "address": "",
+        "role": "",
+        "status": "",
+        "password": "",
+        "created_at": "",
+        "updated_at": ""
+    }
+}

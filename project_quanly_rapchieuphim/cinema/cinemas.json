@@ -1,0 +1,68 @@
+{
+    "cinemas": [
+        {
+            "id": 1,
+            "name": "BHD Star Cineplex - 3/2",
+            "address": "L5-Vincom 3/2, 3C Đường 3/2, Quận 10, Tp.HCM",
+            "image": "https://s3img.vcdn.vn/123phim/2018/09/bhd-star-cineplex-3-2-15379624326610.jpg",
+            "cinemaRooms": [
+                {
+                    "id": 1,
+                    "name": "Rạp 1",
+                    "seats": [
+                        {
+                            "id": 1,
+                            "name": "A1",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 2,
+                            "name": "A2",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 3,
+                            "name": "A3",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 4,
+                            "name": "A4",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 5,
+                            "name": "A5",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 6,
+                            "name": "A6",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 7,
+                            "name": "A7",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 8,
+                            "name": "A8",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 9,
+                            "name": "A9",
+                            "status": "empty"
+                        },
+                        {
+                            "id": 10,
+                            "name": "A10",
+                            "status": "empty"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

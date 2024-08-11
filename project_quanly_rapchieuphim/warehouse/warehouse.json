@@ -1,0 +1,31 @@
+{
+    "bap": {
+        "ngot": {
+            "price": 10000,
+            "quantity": 100
+        },
+        "caramel": {
+            "price": 15000,
+            "quantity": 100
+        },
+        "cheese": {
+            "price": 20000,
+            "quantity": 100
+        }
+    },
+
+    "nuoc": {
+        "cocacola": {
+            "price": 15000,
+            "quantity": 100
+        },
+        "fanta": {
+            "price": 12000,
+            "quantity": 100
+        },
+        "sting": {
+            "price": 10000,
+            "quantity": 100
+        }
+    }
+}
