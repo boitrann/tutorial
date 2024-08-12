@@ -1,15 +1,14 @@
 import json
 
-
 customers = json.load(open(r'F:\Repositories\tutorial\project_quanly_rapchieuphim\customer\customers.json', encoding= 'utf-8'))
 print(customers) # load được mà ?
-
-
 
 
 def update_customer():
     with open(r'F:\Repositories\tutorial\project_quanly_rapchieuphim\customer\customers.json','w+', encoding='utf-8') as f:
         json.dump(customers,f , indent= 2)
+
+
 class Customers:
     def __init__(self, taikhoan) -> None:
         self.email = taikhoan
@@ -40,7 +39,5 @@ class Customers:
 if __name__ == "__main__":
     customer = Customers(taikhoan = "customer1@gmail.com")
    
-    phone = customer.get_phone(phimnao=1)
-    print(phone)
-    # customer.edit_customer(key_edit="phone",value_edit="0901555666")
+    customer.edit_customer(key_edit="phone",value_edit="0901555666")
     # Customers.edit_customer(key_edit= "phone", value_edit= "0901222255")
