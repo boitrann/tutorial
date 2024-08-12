@@ -8,4 +8,11 @@ class Cinemas:
     def __init__(self,truyenvao) -> None:
         self.cine= truyenvao
     
-print(Cinema[cinemas])
+    def get_info(self,rapnao,rap_may,ghenao):
+        tinh_trang_ghe = Cinema[self.cine][rapnao]["cinemaRooms"][rap_may]["seats"][ghenao]["status"]
+        return tinh_trang_ghe
+    
+if __name__=="__main__":
+    rap = Cinemas(truyenvao="cinemas")
+    tinh_trang_ghe = rap.get_info(rapnao=0,rap_may=0,ghenao=0)
+    print(tinh_trang_ghe)
