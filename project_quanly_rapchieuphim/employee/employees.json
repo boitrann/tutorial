@@ -1,14 +1,14 @@
 {
-    "employee1@gmail.com" : {
-        "id": "",
-        "name": "",
-        "phone": "",
-        "cccd": "",
-        "address": "",
-        "role": "",
-        "status": "",
-        "password": "",
-        "created_at": "",
-        "updated_at": ""
-    }
+  "employee1@gmail.com": {
+    "id": "01",
+    "name": "Duy",
+    "phone": "0901555666",
+    "cccd": "00799151515",
+    "address": "2/35 Le lai",
+    "role": "employee",
+    "status": "single",
+    "password": "1234567",
+    "created_at": "12/03/2024",
+    "updated_at": "13/03/2021"
+  }
 }
