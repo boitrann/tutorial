@@ -14,5 +14,5 @@ class Cinemas:
     
 if __name__=="__main__":
     rap = Cinemas(truyenvao="cinemas")
-    tinh_trang_ghe = rap.get_info(rapnao=0,rap_may=0,ghenao=0)
+    tinh_trang_ghe = rap.get_info(rapnao=0,rap_may=0,ghenao=5)
     print(tinh_trang_ghe)

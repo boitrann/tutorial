@@ -6,8 +6,7 @@ print(customers) # load được mà ?
 
 def update_customer():
     with open(r'F:\Repositories\tutorial\project_quanly_rapchieuphim\customer\customers.json','w+', encoding='utf-8') as f:
-        json.dump(customers,f , indent= 2)
-
+        json.dump(customers,f , indent= 3)
 
 class Customers:
     def __init__(self, taikhoan) -> None:
@@ -21,17 +20,17 @@ class Customers:
         id = customers[self.email]["id"]
         return id
     
-    def get_name(self,phimnao):
-        name = customers[self.email][phimnao]["name"]
+    def get_name(self):
+        name = customers[self.email]["name"]
         return name
     
-    def get_phone(self,phimnao):
-        phone = customers[self.email][phimnao]["phone"]
+    def get_phone(self):
+        phone = customers[self.email]["phone"]
         return phone
     
     def edit_customer(self, key_edit, value_edit):
-        if key_edit == customers[self.email]:
-            customers[self.email][key_edit]= value_edit
+        if key_edit in customers[self.email]:
+            customers[self.email][key_edit] = value_edit
             update_customer()
         else:
             print('Thông tin cần sửa sai')       
@@ -39,5 +38,7 @@ class Customers:
 if __name__ == "__main__":
     customer = Customers(taikhoan = "customer1@gmail.com")
    
-    customer.edit_customer(key_edit="phone",value_edit="0901555666")
-    # Customers.edit_customer(key_edit= "phone", value_edit= "0901222255")
+    # phone = customer.get_phone()
+    # print(phone)
+    customer.edit_customer(key_edit="address",value_edit=" 123 đường ABC")
+    # customers.edit_customer(key_edit= "name", value_edit= "Nguyễn Văn A")
