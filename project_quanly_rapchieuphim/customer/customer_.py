@@ -40,5 +40,5 @@ if __name__ == "__main__":
    
     # phone = customer.get_phone()
     # print(phone)
-    customer.edit_customer(key_edit="address",value_edit=" 123 đường ABC")
-    # customers.edit_customer(key_edit= "name", value_edit= "Nguyễn Văn A")
+    customer.edit_customer(key_edit="name",value_edit="Nguyễn Văn A")
+    

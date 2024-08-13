@@ -38,3 +38,4 @@ if __name__ == "__main__":
     id = phim.get_id(movie_no=0)
     # print(id)
     phim.edit_info(key_edit="id", value_edit= 2,movie_no=1)
+    
